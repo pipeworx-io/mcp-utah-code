@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/utah-code",
   "title": "Utah Code",
   "description": "Utah Code — state statutes by citation, plus topic search.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/utah-code",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-utah-code",

@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-utah-code",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Utah Code — state statutes by citation, plus topic search.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-utah-code": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "utah-code"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-utah-code.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/utah-code",
   "pipeworx": {
-    "sourceHash": "v1-0a4ec97b058b8a19d06b4e1572ccc3c4249ce44779f646dd8fe8fc44bec76791",
-    "sourceCommit": "0ce6905893fe8da0d285be2f05754a4200d67371"
+    "mode": "gateway",
+    "slug": "utah-code",
+    "gatewaySlug": "utah-code",
+    "sourceHash": "v1-bbeb185bd79e6b038697808c29d5ec7a4c2c1cbf6d237a89c24fccc7fd57478d",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
