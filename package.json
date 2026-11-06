@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-utah-code",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Utah Code — state statutes by citation, plus topic search.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "utah-code",
     "gatewaySlug": "utah-code",
-    "sourceHash": "v1-bbeb185bd79e6b038697808c29d5ec7a4c2c1cbf6d237a89c24fccc7fd57478d",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-ca44b5887d15b03ee05585cb17008014e9a0defac78def7fba26b0e208985c2f",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
